@@ -6,7 +6,9 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Users user = new Users() { UserName = "zhou", Password = "123qwe" };
+
+            Console.WriteLine($"Hello { user.UserName }!");
         }
     }
 }
